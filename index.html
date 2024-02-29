@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- bootstrap -->
+     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'><link rel="stylesheet" href="./style.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <!-- css -->
+     <link rel="stylesheet" href="css/style.css">
+     <!-- Fontawsome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- banner swiper -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
+	
+    <!-- logo slider -->
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+    <!-- testimonial slider -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  
+
+    <!-- animation -->
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet"> 
+</head>
+<body>
+        <div class="site-mobile-menu site-navbar-target">
+          <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close mt-3">
+              <span class="icon-close2 js-menu-toggle"></span>
+            </div>
+          </div>
+          <div class="site-mobile-menu-body"></div>
+        </div> 
+        
+        
+        <div class="site-navbar-wrap">
+      
+    
+          <div class="site-navbar site-navbar-target js-sticky-header">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-2">
+                  <h1 class="mt-5 site-logo"><a href="index.html"><img src="images/logo (1).png" alt=""></a></h1>
+                </div>
+                <div class="col-7">
+                  <nav class="site-navigation text-right" role="navigation">
+                    <div class="container">
+                      <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+    
+                      <ul class="site-menu main-menu js-clone-nav d-none d-lg-block">
+                        <li class="active"><a href="#home-section" class="nav-link">Home</a></li>
+                        <li><a href="#classes-section" class="nav-link">About</a></li>
+                        <li class="has-children">
+                          <a href="#" class="nav-link">Services <i class="fa-solid fa-caret-down"></i></a>
+                          <ul class="dropdown arrow-top">
+                          
+                            <li><a href="#" class="nav-link">Honeymoon Packages</a></li>
+                            <li><a href="#" class="nav-link">Tours Packages</a></li>
+                            <li><a href="#" class="nav-link">Musical Events</a></li>
+                            <li><a href="#" class="nav-link">Build Package</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#about-section" class="nav-link">Upcomming Packages</a></li>
+                        
+                      </ul>
+                    </div>
+                  </nav>
+                </div>
+                <div class="col-3"><a href="" class="float-end"><button class="get-in  d-none d-lg-block d-md-block">Get in Touch</button></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+
+  <!--  -->
+  <div class="swiper-container">
+     <!-- Additional required wrapper -->
+     <div class="swiper-wrapper">
+     <!-- Slider -->
+        <!-- Slide1 -->
+        <div class="swiper-slide" style="background-image: url(./images/Rectangle\ 19290.png)">
+          <div class="container">
+            <div class="slide-text" >
+              <img src="images/Vector 1.png" alt="">
+              <h1 data-aos="zoom-in" data-aos-duration="2000" class="mb-4">No matter where<br> you’re going to, we’ll<br> take you there</h1>
+              
+              <div class="where-to d-lg-flex mb-4">
+                <form action="" class="d-lg-flex">
+                  <input type="text" class="form-control" placeholder="Where to?">
+                  <select id="cars" name="carlist" form="carform">
+                    <option value="volvo">Travel Type</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                  <select id="cars" name="carlist" form="carform">
+                    <option value="volvo">Duration</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                  </select>
+                  <div class="sbm-btn ms-lg-5">
+                      <a href="">
+                        <button>Submit</button>
+                      </a>
+                  </div>
+                  
+                </form>
+              </div>
+              <div class="people">
+              <img src="images/Group 1000001729.png" alt="">
+              <span>2,500 people booked Tommorowland Event in last 24 hours</span>
+              </div>
+           </div>
+          </div>
+           
+        </div>
+        <!-- END Slide1 -->
+        <!-- Slide2 -->
+        <div class="swiper-slide" style="background-image: url(./images/Rectangle\ 19290.png)">
+          <div class="container">
+          <div class="slide-text" data-aos="zoom-in" data-aos-duration="2000">
+            <img src="images/Vector 1.png" alt="">
+            <h1 class="mb-4">No matter where<br> you’re going to, we’ll<br> take you there</h1>
+            
+            <div class="where-to d-lg-flex mb-4">
+              <form action="" class="d-lg-flex">
+                <input type="text" class="form-control" placeholder="Where to?">
+                <select id="cars" name="carlist" form="carform">
+                  <option value="volvo">Travel Type</option>
+                  <option value="saab">Saab</option>
+                  <option value="opel">Opel</option>
+                  <option value="audi">Audi</option>
+                </select>
+                <select id="cars" name="carlist" form="carform">
+                  <option value="volvo">Duration</option>
+                  <option value="saab">Saab</option>
+                  <option value="opel">Opel</option>
+                  <option value="audi">Audi</option>
+                </select>
+                <div class="sbm-btn ms-lg-5">
+                    <a href="">
+                      <button>Submit</button>
+                    </a>
+                </div>
+                
+              </form>
+            </div>
+            <div class="people">
+            <img src="images/Group 1000001729.png" alt="">
+            <span>2,500 people booked Tommorowland Event in last 24 hours</span>
+            </div>
+         </div>
+        </div>
+        </div>
+        <!-- END Slide2 -->
+        <!-- Slide3 -->
+        <div class="swiper-slide" style="background-image: url(./images/Rectangle\ 19290.png)">
+          <div class="container">
+          <div class="slide-text" data-aos="zoom-in" data-aos-duration="2000">
+            <img src="images/Vector 1.png" alt="">
+            <h1 class="mb-4">No matter where<br> you’re going to, we’ll<br> take you there</h1>
+            
+            <div class="where-to d-lg-flex mb-4">
+              <form action="" class="d-lg-flex">
+                <input type="text" class="form-control" placeholder="Where to?">
+                <select id="cars" name="carlist" form="carform">
+                  <option value="volvo">Travel Type</option>
+                  <option value="saab">Saab</option>
+                  <option value="opel">Opel</option>
+                  <option value="audi">Audi</option>
+                </select>
+                <select id="cars" name="carlist" form="carform">
+                  <option value="volvo">Duration</option>
+                  <option value="saab">Saab</option>
+                  <option value="opel">Opel</option>
+                  <option value="audi">Audi</option>
+                </select>
+                <div class="sbm-btn ms-lg-5">
+                    <a href="">
+                      <button>Submit</button>
+                    </a>
+                </div>
+                
+              </form>
+            </div>
+            <div class="people">
+            <img src="images/Group 1000001729.png" alt="">
+            <span>2,500 people booked Tommorowland Event in last 24 hours</span>
+            </div>
+         </div>
+        </div>
+        </div>
+        <!-- END Slide3 -->
+      
+   
+     </div>
+     <!-- If we need pagination -->
+     <div class="swiper-pagination"></div>
+  
+     
+  
+  </div>	
+
+  <section style="background-color: #F7F7F7;">
+    <div class="container">
+      <section class="customer-logos slider">
+          <div class="slide"><img src="images/image 909.png"></div>
+          <div class="slide"><img src="images/trivago.png"></div>
+          <div class="slide"><img src="images/Mask group (1).png"></div>
+          <div class="slide"><img src="images/image 912 (1).png"></div>
+          <div class="slide"><img src="images/Mask group.png"></div>
+      </section>
+    </div>
+</section>
+
+
+
+
+<!-- trending packages -->
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="trendy text-center mb-5">
+        <!-- <img src="images/Background Element.png" alt=""> -->
+        <h2 class="mt-5 pt-5" data-aos="zoom-in" data-aos-duration="2000">trendy</h2>
+        <h1>Our Trending Tour<br> Packages</h1>
+      </div>
+        <div class="trendy-row">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="box-one mb-5 mb-lg-0" data-aos="fade-up" data-aos-duration="1000">
+                <img src="images/Group 1000001725.png" alt="">
+                <div class="time d-flex flex-column gap-2 flex-lg-row flex-sm-row justify-content-between">
+                  <div class="me-4">
+                    <span>
+                      <img src="images/uil_calender.png" alt="" class="me-2">8 days
+                    </span>
+                  </div>
+                 
+                  <div>
+                    <span>
+                      <img src="images/ooui_user-avatar-outline.png" alt="" class="me-2">25 People going
+                    </span>
+                    
+                  </div>
+                </div>
+                <div class="align-items-baseline d-flex justify-content-between">
+                  <h2 class="mb-2 ">Switzerland</h2>
+                  <div class="d-flex">
+                    <img src="images/bi_star-fill.png" alt="" class="h-100 w-auto">
+                    <img src="images/bi_star-fill.png" alt="" class="h-100 w-auto">
+                    <img src="images/bi_star-fill.png" alt="" class="h-100 w-auto">
+                    <img src="images/bi_star-fill.png" alt="" class="h-100 w-auto">
+                    <img src="images/bi_star-fill.png" alt="" class="h-100 w-auto">
+                  </div>
+                </div>
+                <div class="d-flex">
+                  <span class="mb-2 ">
+                    <img src="images/ep_location.png" alt="" class="w-auto"> Europe
+                  </span>
+                </div>
+                <div>
+                  <h1>1,000 $ <span class="text-decoration-line-through">1200 $</span></h1>
+                </div>
+                <p>Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id quod eligendi. Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos.</p>
+                <a href="">
+                  <button>
+                    Explore Now
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="box-one mb-5 mb-lg-0" data-aos="fade-up" data-aos-duration="2000">
+                <img src="images/Group 1000001726.png" alt="">
+                <div class="time d-flex flex-column gap-2 flex-lg-row flex-sm-row justify-content-between">
+                  <div class="me-4">
+                    <span>
+                      <img src="images/uil_calender.png" alt="" class="me-2">8 days
+                    </span>
+                  </div>
+                 
+                  <div>
+                    <span>
+                      <img src="images/ooui_user-avatar-outline.png" alt="" class="me-2">30 People going
+                    </span>
+                    
+                  </div>
+                </div>
+                <div class="align-items-baseline d-flex justify-content-between">
+                  <h2 class="mb-2 " >Amazon</h2>
+                  <div class="d-flex">
+                    <img src="images/bi_star-fill.png" alt="" class="h-100 w-auto">
+                    <img src="images/bi_star-fill.png" alt="" class="h-100 w-auto">
+                    <img src="images/bi_star-fill.png" alt="" class="h-100 w-auto">
+                    <img src="images/bi_star-fill.png" alt="" class="h-100 w-auto">
+                    <img src="images/bi_star-fill.png" alt="" class="h-100 w-auto">
+                  </div>
+                </div>
+                <div class="d-flex">
+                  <span class="mb-2 ">
+                    <img src="images/ep_location.png" alt="" class="w-auto"> Brazil
+                  </span>
+                </div>
+                <div>
+                  <h1>1,223 $ <span class="text-decoration-line-through">1200 $</span></h1>
+                </div>
+                <p>Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id quod eligendi. Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos.</p>
+                <a href="">
+                  <button>
+                    Explore Now
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+              <div class="box-one" data-aos="fade-up" data-aos-duration="3000">
+                <img src="images/Group 1000001727.png" alt="">
+                <div class="time d-flex flex-column gap-2 flex-sm-row flex-lg-row justify-content-between">
+                  <div class="me-4">
+                    <span >
+                      <img src="images/uil_calender.png" alt="" class="me-2">8 days
+                    </span>
+                  </div>
+                 
+                  <div>
+                    <span>
+                      <img src="images/ooui_user-avatar-outline.png" alt="" class="me-2">155 People going
+                    </span>
+                    
+                  </div>
+                </div>
+                <div class="align-items-baseline d-flex justify-content-between">
+                  <h2 class="mb-2 ">Giza</h2>
+                  <div class="d-flex">
+                    <img src="images/bi_star-fill.png" alt="" class="h-100 w-auto">
+                    <img src="images/bi_star-fill.png" alt="" class="h-100 w-auto">
+                    <img src="images/bi_star-fill.png" alt="" class="h-100 w-auto">
+                    <img src="images/bi_star-fill.png" alt="" class="h-100 w-auto">
+                    <img src="images/bi_star-fill.png" alt="" class="h-100 w-auto">
+                  </div>
+                </div>
+                <div class="d-flex">
+                  <span class="mb-2 ">
+                    <img src="images/ep_location.png" alt="" class="w-auto"> Egypt
+                  </span>
+                </div>
+                <div>
+                  <h1>1,200 $ <span class="text-decoration-line-through">1200 $</span></h1>
+                </div>
+                <p>Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id quod eligendi. Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos.</p>
+                <a href="">
+                  <button>
+                    Explore Now
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="test" style="background-image: url(./images/Group\ 1000001728.png);"  >
+  <div class="container">
+    <div class="row">
+      <div class="trendy text-center mb-5">
+        <h2 class="mt-5 pt-3" data-aos="zoom-in" data-aos-duration="2000">Promotion</h2>
+        <h1>See What Our Clients Say <br> About Us</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>   
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">		
+          <div class="carousel-item active">
+            <div class="img-box"><img src="images/Ellipse 624.png" alt=""></div>
+            <img class="quote" src="images/ri_double-quotes-l.png" alt="">
+            <p class="testimonial">Vel officiis dolor ea illo aut eligendi ullam non laudantium magnam et recusandae molestiae sit iure unde aut voluptate quaerat. Id sunt provident quo possimus impedit vel doloremque obcaecati qui ullam consectetur et ipsum omnis.</p>
+            <p class="overview"><b>Christine Beckam - Designer</b> </p>
+          
+          </div>
+          <div class="carousel-item">
+            <div class="img-box"><img src="images/Ellipse 624.png" alt=""></div>
+            <img class="quote" src="images/ri_double-quotes-l.png" alt="">
+            <p class="testimonial">Vel officiis dolor ea illo aut eligendi ullam non laudantium magnam et recusandae molestiae sit iure unde aut voluptate quaerat. Id sunt provident quo possimus impedit vel doloremque obcaecati qui ullam consectetur et ipsum omnis.</p>
+            <p class="overview"><b>Christine Beckam - Designer</b> </p>
+          </div>
+          <div class="carousel-item">
+            <div class="img-box"><img src="images/Ellipse 624.png" alt=""></div>
+            <img class="quote" src="images/ri_double-quotes-l.png" alt="">
+            <p class="testimonial">Vel officiis dolor ea illo aut eligendi ullam non laudantium magnam et recusandae molestiae sit iure unde aut voluptate quaerat. Id sunt provident quo possimus impedit vel doloremque obcaecati qui ullam consectetur et ipsum omnis.</p>
+            <p class="overview"><b>Christine Beckam - Designer</b> </p>
+          </div>		
+        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+         <img src="images/navigation (1).png" alt="">
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+          <img src="images/navigation.png" alt="">
+        </a>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!-- footer -->
+<section>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="foot mb-5 mb-lg-0">
+            <img src="images/foot-logo.png" alt="">
+            <p>Travel helps companies manage payments easily.</p>
+            <div class="social d-flex gap-3">
+              <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href=""><i class="fa-brands fa-facebook-messenger"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-solid fa-infinity"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <div class="foot mb-5 mb-lg-0">
+            <h4 class="mb-4">Company</h4>
+            <p><a href="">About Us</a></p>
+            <p><a href="">Career</a></p>
+            <p><a href="">Blog</a></p>
+            <p><a href="">Pricing</a></p>
+           
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <div class="foot mb-5 mb-lg-0">
+            <h4 class="mb-4">Destinations</h4>
+            <p><a href="">Maldives</a></p>
+            <p><a href="">Los Angelas</a></p>
+            <p><a href="">Las Vegas</a></p>
+            <p><a href="">Torronto</a></p>
+           
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-6">
+          <div class="foot mb-5 mb-lg-0">
+            <h4 class="mb-4">Join Our Newsletter</h4>
+          <div class="login_bar">
+            
+            <span class="login">Your email address</span>
+            <span class="subscribe_button" >subscribe</span>
+            </div>
+          <p class="mt-4">*  Will send you weekly updates for your better
+            tour packages.</p>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+
+
+    
+<div class="copy mt-5">
+  <p>Copyright @ Xpro 2022. All Rights Reserved.</p>
+</div>
+    
+  </footer>
+  
+</section>
+
+
+ 
+  <script>
+    $(document).ready(function(){
+      $('.customer-logos').slick({
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 1500,
+          arrows: false,
+          dots: false,
+          pauseOnHover: false,
+          responsive: [{
+              breakpoint: 768,
+              settings: {
+                  slidesToShow: 2
+              }
+          },
+           {
+              breakpoint: 520,
+              settings: {
+                  slidesToShow: 1
+              }
+          },
+          {
+              breakpoint: 970,
+              settings: {
+                  slidesToShow: 2
+              }
+          }]
+      });
+  });
+  </script>
+
+
+
+	<!-- banner swiper -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
+    <!-- <script src="js/jquery-3.3.1.min.js"></script> -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+<script src="js/main.js"></script>
+    
+
+<script>  
+var mySwiper = new Swiper('.swiper-container', {
+   effect: '',
+   loop: false,
+   speed: 1000,
+   slidesPerView: 1,
+   navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev'
+   },
+   pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: 'true'
+   },
+});      
+</script>	
+
+<script src="js/main.js"></script>
+  <!-- navbar -->
+  <!-- <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script> -->
+
+<!-- bootstrap script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        <!-- animation -->
+ <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+ <script>
+   AOS.init();
+ </script>                       
+
+</body>
+</html>
