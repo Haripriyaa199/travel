@@ -1025,6 +1025,9 @@ body{
 
 
 
+.carousel-inner {
+  overflow: visible !important;
+}
 .carousel {
 	width: 538px;
 	margin: 0 auto;
@@ -1036,7 +1039,7 @@ body{
 	color: #999;
 	font-size: 14px;
 	text-align: center;
-	overflow: hidden;
+	overflow: visible;
 	min-height: 340px;
 }
 .carousel .carousel-item a {
